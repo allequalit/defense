@@ -1,6 +1,6 @@
 # 한국어 (Korean)
 
-# ManaDefense
+# 마냐디펜스
 한번의 실행으로 한국 아이피주소, 1.1.1.1 DNS, Google DNS, Open DNS, quad9 DNS, Comodo Secure DNS, AdGuard DNS, 내부망 아이피주소를 제외한 모든 아이피주소를 차단을 반영구적으로 적용해주는 프로그램 입니다. <br><br>
 프로그램은 오픈소스이며 비상업적, 상업적 용도로 사용가능하지만 재배포는 금지됩니다. <br><br>
 실행 가능 운영체제 : Ubuntu 16.04 LTS 이상 <br><br>
