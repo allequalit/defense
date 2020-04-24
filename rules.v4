@@ -1,6 +1,9 @@
-*raw
-:PREROUTING ACCEPT [58137:72305201]
-:OUTPUT ACCEPT [126095:125946300]
+*mangle
+:PREROUTING ACCEPT [1946:356388]
+:INPUT ACCEPT [1177:161840]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [1261:135546]
+:POSTROUTING ACCEPT [1151:123802]
 # ICMP는 호스트가 여전히 살아 있는지 확인하기 위해 호스트를 ping하는 데만 사용됩니다. 
 # 일반적으로 필요하지 않으며 공격 대상 탐지, Ping of Death (ping flood), ICMP flood 및 ICMP fragmentation flood에 사용되기 때문에 
 # 모든 ICMP 패킷을 차단합니다.
