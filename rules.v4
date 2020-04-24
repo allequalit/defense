@@ -2767,5 +2767,4 @@
 # 한국 아이피주소, 1.1.1.1 DNS, Google DNS, Open DNS, quad9 DNS, Comodo Secure DNS, AdGuard DNS, 내부망 아이피주소를 제외한 모든 tcp, udp 연결을 차단합니다.
 -A PREROUTING -p tcp -j DROP
 -A PREROUTING -p udp -j DROP
-# -----------------------------------------------------------------------------------------------------------------------------------------------------
 COMMIT
