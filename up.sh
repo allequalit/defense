@@ -23,7 +23,7 @@ cp /etc/sysctl.conf /etc/backup/;cp /etc/iptables/rules.v4 /etc/backup
 git clone https://github.com/allequalit/defense.git;
 mv defense /etc/;
 
-# 마냐디펜서 소스코드 다운로드
+# 마냐디펜스 소스코드 다운로드
 
 cat /etc/defense/sysctl.conf >> /etc/sysctl.conf
 
