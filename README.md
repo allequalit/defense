@@ -8,7 +8,7 @@ Ubuntu 16.04 LTS 이하인 경우 업그레이드를 진행 하신후 해외망 
 # 주의 사항
 해외망 차단 프로그램 프로그램을 실행하면 sysctl.conf (리눅스 커널 설정 파일), rules.v4 (iptables 설정 파일)이 /etc/backup 폴더에 백업됩니다. <br><br>
 <a href="https://wnw1005.tistory.com/26">프로그램 실행후 우분투 저장소를 카카오로 변경해주세요.</a><br><br>
-이프로그램(해외망차단프로그램)을 실행하여 발생한 피해는 책입지지 않습니다. <br><br> 적용이 완료되면 시스템을 재부팅합니다. <br><br>
+적용이 완료되면 시스템을 재부팅합니다. <br><br>
     오류가있을 경우 dpkg --configure -a 입력해주세요. <br><br>
 # 실행하는 법 <br>
 sudo wget https://defense.ael.kr/up.sh --no-check-certificate <br><br>
